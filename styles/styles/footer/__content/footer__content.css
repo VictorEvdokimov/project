@@ -1,0 +1,14 @@
+@import "__author/footer-contacts__author.css";
+@import "__list-contacts/footer__list-contacts.css";
+
+.footer__content {
+  height: 147px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__content {
+    align-items: normal;
+  }
+}

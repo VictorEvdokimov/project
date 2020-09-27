@@ -1,12 +1,20 @@
 @import "footer-feedback/footer-feedback.css";
-/* @import "footer-contacts/footer-contacts.css";
-@import "__copyright/footer__copyright.css"; */
+@import "__content/footer__content.css";
+@import "__copyright/footer__copyright.css";
 
 .footer {
+  display: flex;
+  flex-direction: column;
   background-color: #316099;
   margin-top: 88px;
   color: #ffffff;
   padding-left: 113px;
   padding-right: 113px;
-  /* box-sizing: border-box; */
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-left: 124px;
+    padding-right: 124px;
+  }
 }

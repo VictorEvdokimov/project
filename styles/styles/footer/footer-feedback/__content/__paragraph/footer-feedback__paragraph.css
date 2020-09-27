@@ -1,0 +1,9 @@
+.footer-feedback__paragraph {
+  font-family: roboto;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 32px;
+  opacity: 60%;
+  letter-spacing: 2px;
+}

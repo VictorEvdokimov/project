@@ -1,8 +1,7 @@
 .footer-feedback__title {
-  font-family: Roboto;
+  font-family: roboto;
   font-weight: 100;
   font-size: 36px;
   line-height: 46px;
-  letter-spacing: 4px;
-  margin-top: 25px;
+  letter-spacing: 2px;
 }

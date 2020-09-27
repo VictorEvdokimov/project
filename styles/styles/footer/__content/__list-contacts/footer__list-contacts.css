@@ -1,0 +1,41 @@
+.footer__list-contacts {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer__item {
+  font-family: roboto;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 26px;
+  list-style-type: none;
+  letter-spacing: 2px;
+}
+
+.footer__item_tl {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer__item_tl::before {
+  content: "T.";
+}
+
+.footer__item_ml::before {
+  content: "E.";
+}
+
+.footer__item_owner::before {
+  content: "A.";
+}
+
+@media screen and (max-width: 768px) {
+  .footer__list-contacts {
+    flex-direction: column;
+  }
+
+  .footer__item_tl {
+    margin: 0;
+  }
+}
