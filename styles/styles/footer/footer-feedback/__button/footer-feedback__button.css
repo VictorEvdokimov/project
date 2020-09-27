@@ -5,6 +5,7 @@
   font-family: Roboto;
   font-size: 16px;
   line-height: 26px;
+  margin-left: 25px;
 }
 
 .footer-feedback__button:hover {
@@ -16,6 +17,5 @@
   .footer-feedback__button {
     width: 133px;
     height: 32px;
-    margin-left: 51px;
   }
 }

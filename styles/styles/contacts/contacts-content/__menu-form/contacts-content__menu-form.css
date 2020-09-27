@@ -3,9 +3,15 @@
 
 .contacts-content__menu-form {
   height: 800px;
-  width: 540px;
+  max-width: 540px;
   padding: 56px;
   border-radius: 10px;
   box-sizing: border-box;
   box-shadow: 5px 7px 28px rgba(134, 186, 245, 0.747);
+}
+
+@media screen and (max-width: 860px) {
+  .contacts-content__menu-form {
+    margin-top: 64px;
+  }
 }

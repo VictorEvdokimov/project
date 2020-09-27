@@ -1,16 +1,27 @@
 .aboutSite__illustration {
-  max-width: 650px;
   height: 550px;
   margin-top: 77px;
   margin-left: 77px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1365px) {
   .aboutSite__illustration {
-    width: 341px;
-    height: 281px;
+    height: 42vw;
     position: absolute;
+    right: 90px;
+    bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .aboutSite__illustration {
+    right: 90px;
+    bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .aboutSite__illustration {
     right: 48px;
-    bottom: 96px;
   }
 }

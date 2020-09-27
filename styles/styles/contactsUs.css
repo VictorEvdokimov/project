@@ -7,3 +7,24 @@
   padding-left: 213px;
   padding-right: 213px;
 }
+
+@media screen and (max-width: 1365px) {
+  .contacts-content,
+  .contacts__heading {
+    padding-left: 124px;
+    padding-right: 124px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .contacts__map {
+    padding-left: 124px;
+    padding-right: 124px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .contacts__map {
+    padding: 0;
+  }
+}

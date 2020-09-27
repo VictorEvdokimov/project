@@ -1,3 +1,9 @@
 .contacts__map {
   margin-top: 96px;
 }
+
+@media screen and (max-width: 860px) {
+  .contacts__map {
+    margin-top: 64px;
+  }
+}

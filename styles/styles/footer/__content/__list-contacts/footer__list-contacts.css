@@ -26,16 +26,24 @@
   content: "E.";
 }
 
+.footer__item_owner {
+  max-width: 44%;
+}
+
 .footer__item_owner::before {
   content: "A.";
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .footer__list-contacts {
     flex-direction: column;
   }
 
   .footer__item_tl {
     margin: 0;
+  }
+
+  .footer__item_owner {
+    max-width: 100%;
   }
 }

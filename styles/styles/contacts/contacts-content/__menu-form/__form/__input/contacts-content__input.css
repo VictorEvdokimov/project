@@ -13,7 +13,7 @@
   border-radius: 10px;
   margin-top: 8px;
   font-family: roboto;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .contacts-content__input:hover,
@@ -23,7 +23,21 @@
 
 .contacts-content__textarea {
   padding-top: 21px;
-  padding-left: 42px;
+  padding-left: 40px;
   font-size: 16px;
   line-height: 30px;
+}
+
+@media screen and (max-width: 860px) {
+  .contacts-content__textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contacts-content__input {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }

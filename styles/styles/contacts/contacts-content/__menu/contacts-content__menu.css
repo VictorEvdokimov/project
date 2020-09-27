@@ -6,3 +6,10 @@
 .contacts-content__menu {
   width: 100%;
 }
+
+@media screen and (max-width: 860px) {
+  .contacts-content__menu {
+    margin-left: 114px;
+    width: auto;
+  }
+}

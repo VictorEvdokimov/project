@@ -6,3 +6,10 @@
   justify-content: center;
   margin-top: 64px;
 }
+
+@media screen and (max-width: 860px) {
+  .contacts-content {
+    flex-direction: column;
+    justify-content: start;
+  }
+}
