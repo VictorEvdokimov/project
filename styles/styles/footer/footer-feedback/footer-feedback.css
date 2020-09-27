@@ -1,7 +1,10 @@
-.footer-feedback {
+@import "__content/footer-feedback__content.css";
+@import "__button/footer-feedback__button.css";
+
+/* .footer-feedback {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 386px;
-}
+} */

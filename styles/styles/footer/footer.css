@@ -1,6 +1,6 @@
 @import "footer-feedback/footer-feedback.css";
-@import "footer-contacts/footer-contacts.css";
-@import "__copyright/footer__copyright.css";
+/* @import "footer-contacts/footer-contacts.css";
+@import "__copyright/footer__copyright.css"; */
 
 .footer {
   background-color: #316099;
@@ -8,5 +8,5 @@
   color: #ffffff;
   padding-left: 113px;
   padding-right: 113px;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }

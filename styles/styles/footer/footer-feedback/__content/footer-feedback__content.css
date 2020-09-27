@@ -1,0 +1,7 @@
+@import "__title/footer-feedback__title.css";
+@import "__description/footer-feedback__paragraph.css";
+
+.footer-feedback__content {
+  width: 488px;
+  height: 280px;
+}
