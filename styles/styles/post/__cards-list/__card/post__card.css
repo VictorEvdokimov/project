@@ -1,0 +1,77 @@
+.post__img {
+  height: 127px;
+  margin-top: 45px;
+}
+
+.post__card {
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 295px;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-top: 26px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgba(137, 202, 245, 0.801);
+  box-sizing: content-box;
+}
+
+.post__content {
+  margin-top: 45px;
+  margin-bottom: 44px;
+}
+
+.post__card_text {
+  color: #1f3f68;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  letter-spacing: 2px;
+}
+
+.post__title-card {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  -webkit-line-clamp: 2;
+}
+
+.post__description-card {
+  margin-top: 15px;
+  font-family: roboto;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 26px;
+  -webkit-line-clamp: 3;
+  opacity: 60%;
+}
+
+.post__link {
+  display: block;
+  margin-top: 28px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 30px;
+  color: #5a98d0;
+}
+
+.post__link:hover {
+  color: #183852;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .post__card {
+    width: 335px;
+    height: 448px;
+  }
+
+  .post__content {
+    margin-top: 35px;
+  }
+}

@@ -1,0 +1,15 @@
+@import "__title/comments__title.css";
+@import "__description/comments__description.css";
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7px;
+}
+
+@media screen and (max-width: 768px) {
+  .comments {
+    margin-top: 112px;
+  }
+}

@@ -1,0 +1,7 @@
+@import "__input-name/contacts-content__input_name.css";
+@import "__input/contacts-content__input.css";
+@import "button/button.css";
+
+.contacts-content__form {
+  margin-top: 48px;
+}

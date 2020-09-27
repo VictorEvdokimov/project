@@ -1,0 +1,6 @@
+@import "__title/post__title.css";
+@import "__cards-list/post__cards-list.css";
+
+.post {
+  margin-top: 48px;
+}

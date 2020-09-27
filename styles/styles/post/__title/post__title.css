@@ -1,0 +1,10 @@
+.post__title {
+  display: block;
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  margin-top: 21px;
+  letter-spacing: 2px;
+}

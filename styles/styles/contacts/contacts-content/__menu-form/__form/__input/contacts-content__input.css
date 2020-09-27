@@ -1,0 +1,29 @@
+.contacts-content__input {
+  width: 100%;
+  height: 60px;
+  padding-left: 42px;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 32px;
+  box-sizing: border-box;
+}
+
+.contacts-content__input,
+.contacts-content__textarea {
+  border-radius: 10px;
+  margin-top: 8px;
+  font-family: roboto;
+  letter-spacing: 2px;
+}
+
+.contacts-content__input:hover,
+.contacts-content__textarea:hover {
+  background-color: aliceblue;
+}
+
+.contacts-content__textarea {
+  padding-top: 21px;
+  padding-left: 42px;
+  font-size: 16px;
+  line-height: 30px;
+}

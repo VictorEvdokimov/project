@@ -1,0 +1,16 @@
+.aboutSite__description {
+  display: block;
+  width: 425px;
+  margin: 32px auto 48px 0;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1f3f68;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutSite__description {
+    margin: 32px auto 72px 0;
+  }
+}

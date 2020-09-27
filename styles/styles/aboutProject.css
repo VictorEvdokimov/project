@@ -1,0 +1,24 @@
+@import "header/header.css";
+@import "footer/footer.css";
+@import "aboutSite/aboutSite.css";
+@import "post/post.css";
+@import "comments/comments.css";
+@import "illustration/illustration.css";
+
+.header,
+.post,
+.comments,
+.illustration {
+  margin-left: 113px;
+  margin-right: 113px;
+}
+
+@media screen and (max-width: 768px) {
+  .header,
+  .post,
+  .comments,
+  .illustration {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}

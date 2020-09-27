@@ -1,0 +1,8 @@
+@import "__card/illustration__card.css";
+
+.illustration {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 32px;
+}

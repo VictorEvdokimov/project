@@ -1,0 +1,34 @@
+@import "__image/illustration__image.css";
+@import "__image-name/illustration__image-name.css";
+
+.illustration__card {
+  margin-bottom: 32px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.illustration__card_background1 {
+  width: 100%;
+  height: 480px;
+  background: linear-gradient(
+    to left,
+    rgba(31, 63, 104, 0.3) 3%,
+    rgba(31, 63, 104, 1) 97%
+  );
+}
+
+.illustration__card_background2 {
+  width: 48.5%;
+  height: 417px;
+  background: linear-gradient(
+    to left,
+    rgba(66, 165, 245, 0.4) 3%,
+    rgba(21, 101, 192, 0.6) 97%
+  );
+}
+
+@media screen and (max-width: 768px) {
+  .illustration__card_background1 {
+    max-height: 296px;
+  }
+}

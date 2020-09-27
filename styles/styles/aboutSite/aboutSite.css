@@ -1,0 +1,18 @@
+@import "__content/aboutSite__content.css";
+@import "__illustration/aboutSite__illustration.css";
+
+.aboutSite {
+  display: flex;
+  background: linear-gradient(#ffffff, 88%, #98c3e8);
+  padding-left: 113px;
+  padding-right: 113px;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutSite {
+    height: 660px;
+    padding-left: 32px;
+    padding-right: 32px;
+    position: relative;
+  }
+}

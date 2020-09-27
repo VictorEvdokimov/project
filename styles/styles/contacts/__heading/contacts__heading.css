@@ -1,0 +1,10 @@
+@import "__heading-title/contacts__heading-title.css";
+@import "__heading-description/contacts__heading-description.css";
+
+.contacts__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  background: url(../../../../img/Mask\ Group.png);
+}

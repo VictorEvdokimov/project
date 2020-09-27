@@ -1,0 +1,17 @@
+.aboutSite__button_seeOurProject {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutSite__button_seeOurProject {
+    display: block;
+    width: 220px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    background: #5a98d0;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  }
+}

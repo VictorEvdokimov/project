@@ -1,0 +1,33 @@
+.illustration__image-name {
+  font-family: roboto;
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 100;
+  color: #ffffff;
+  letter-spacing: 2px;
+  position: absolute;
+  z-index: 1;
+}
+
+.name_alberto-castillo {
+  top: 64px;
+  right: 64px;
+}
+
+.name_iphonex,
+.name_Car-Rapetition {
+  top: 32px;
+  left: 32px;
+}
+
+.illustration__image_alberto-castillo {
+  background-image: url(../../../../../img/alberto-castillo-q-mx4mSkK9zeo-unsplash.jpg);
+}
+
+.illustration__image_iphonex {
+  background-image: url(../../../../../img/Dribble\ iphonex\ mockup.jpg);
+}
+
+.illustration__image_Car-Rapetition {
+  background-image: url(../../../../../img/upload.jpg);
+}

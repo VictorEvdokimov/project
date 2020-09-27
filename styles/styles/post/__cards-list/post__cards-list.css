@@ -1,0 +1,16 @@
+@import "__card/post__card.css";
+
+.post__cards-list {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* display: flex;
+    justify-content: space-around; */
+  margin-top: 38px;
+}
+
+@media screen and (max-width: 768px) {
+  .post__cards-list {
+    grid-template-columns: 1fr;
+  }
+}

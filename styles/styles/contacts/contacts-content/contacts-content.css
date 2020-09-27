@@ -1,0 +1,8 @@
+@import "__menu/contacts-content__menu.css";
+@import "__menu-form/contacts-content__menu-form.css";
+
+.contacts-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}

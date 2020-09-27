@@ -1,0 +1,9 @@
+@import "__title/aboutSite__title.css";
+@import "__description/aboutSite__description.css";
+@import "__button/aboutSite__button_seeOurProject.css";
+
+.aboutSite__content {
+  max-width: 554px;
+  max-height: 350px;
+  margin-top: 67px;
+}

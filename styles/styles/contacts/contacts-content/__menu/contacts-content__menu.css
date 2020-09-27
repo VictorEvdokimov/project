@@ -1,0 +1,8 @@
+@import "__image/contacts-content__image.css";
+@import "__title/contacts-content__title.css";
+@import "__paragraph/contacts-content__paragraph.css";
+@import "__data/contacts-content__data.css";
+
+.contacts-content__menu {
+  width: 100%;
+}
