@@ -8,13 +8,34 @@
   background-color: #316099;
   margin-top: 88px;
   color: #ffffff;
-  padding-left: 113px;
-  padding-right: 113px;
+  padding-left: 211px;
+  padding-right: 211px;
+}
+
+@media screen and (max-width: 1150px) {
+  .footer {
+    padding-left: 14%;
+    padding-right: 14%;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
     padding-left: 124px;
     padding-right: 124px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .footer {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

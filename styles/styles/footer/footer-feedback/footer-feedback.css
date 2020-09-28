@@ -2,10 +2,26 @@
 @import "__button/footer-feedback__button.css";
 
 .footer-feedback {
-  height: 383px;
+  min-height: 383px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-left: 113px;
-  margin-right: 113px; */
+}
+
+@media screen and (max-width: 640px) {
+  .footer-feedback {
+    padding-top: 47px;
+    padding-bottom: 47px;
+    min-height: 300px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .footer-feedback {
+    flex-direction: column;
+    padding-top: 16px;
+    justify-content: flex-start;
+    min-height: 262px;
+  }
 }

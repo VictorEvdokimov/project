@@ -19,3 +19,10 @@
     height: 32px;
   }
 }
+
+@media screen and (max-width: 510px) {
+  .footer-feedback__button {
+    margin-left: 0;
+    margin-top: 32px;
+  }
+}

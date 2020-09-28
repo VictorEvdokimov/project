@@ -27,4 +27,16 @@
   .contacts__map {
     padding: 0;
   }
+
+  .contacts-content {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .contacts-content,
+  .contacts__heading {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
 }

@@ -10,3 +10,10 @@
     width: 62%;
   }
 }
+
+@media screen and (max-width: 510px) {
+  .footer-feedback__content {
+    width: 100%;
+    text-align: center;
+  }
+}

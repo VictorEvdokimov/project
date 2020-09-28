@@ -7,3 +7,10 @@
   opacity: 60%;
   letter-spacing: 2px;
 }
+
+@media screen and (max-width: 640px) {
+  .footer-feedback__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

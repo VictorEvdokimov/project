@@ -17,9 +17,13 @@ h1 {
   width: 510px;
 }
 
+hr {
+  box-sizing: border-box;
+}
+
 /*----------- markup for development------------*/
 
-/* h1,
+h1,
 h2,
 h3,
 h4,
@@ -31,4 +35,4 @@ button,
 input,
 textarea {
   border: 1px solid red;
-} */
+}

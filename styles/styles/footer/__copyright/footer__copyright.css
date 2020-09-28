@@ -4,3 +4,9 @@
   padding-bottom: 49px;
   opacity: 60%;
 }
+
+@media screen and (max-width: 640px) {
+  .footer__copyright {
+    padding-bottom: 0;
+  }
+}
