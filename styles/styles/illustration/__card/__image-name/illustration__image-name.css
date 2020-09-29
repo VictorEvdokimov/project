@@ -31,3 +31,28 @@
 .illustration__image_Car-Rapetition {
   background-image: url(../../../../../img/upload.jpg);
 }
+
+@media screen and (max-width: 1024px) {
+  .illustration__image-name {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .name_alberto-castillo {
+    top: 16px;
+    right: 16px;
+  }
+
+  .name_iphonex,
+  .name_Car-Rapetition {
+    top: 26px;
+    left: 16px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .illustration__image-name {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

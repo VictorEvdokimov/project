@@ -16,3 +16,10 @@
     margin-right: auto;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .post__title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}

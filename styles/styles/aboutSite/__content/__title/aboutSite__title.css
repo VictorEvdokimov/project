@@ -2,11 +2,14 @@
   font-size: 64px;
   line-height: 74px;
   color: #1f3f68;
-  width: 478px;
   font-family: roboto;
   font-weight: 100;
   margin-top: 40px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 570px) {
+  .aboutSite__title {
+    font-size: 32px;
+    line-height: 37px;
+  }
 }

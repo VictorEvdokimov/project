@@ -1,6 +1,5 @@
 .aboutSite__description {
-  display: block;
-  width: 425px;
+  max-width: 425px;
   margin: 32px auto 48px 0;
   font-family: roboto;
   font-weight: 400;
@@ -12,5 +11,17 @@
 @media screen and (max-width: 768px) {
   .aboutSite__description {
     margin: 32px auto 72px 0;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .aboutSite__description {
+    margin: 32px auto 41px auto;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .aboutSite__description {
+    margin: 12px auto 32px auto;
   }
 }

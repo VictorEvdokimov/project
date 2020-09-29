@@ -12,12 +12,14 @@
   .aboutSite {
     height: 660px;
     position: relative;
+    padding-left: 7%;
+    padding-right: 7%;
   }
 }
 
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 710px) {
   .aboutSite {
-    padding-left: 7%;
-    padding-right: 7%;
+    justify-content: center;
+    height: auto;
   }
 }

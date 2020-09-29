@@ -1,17 +1,31 @@
 .aboutSite__button_seeOurProject {
   display: none;
+  width: 220px;
+  height: 56px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  background: #5a98d0;
+  border-radius: 10px;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
 }
 
 @media screen and (max-width: 768px) {
   .aboutSite__button_seeOurProject {
     display: block;
-    width: 220px;
-    height: 56px;
-    font-size: 16px;
-    line-height: 26px;
-    color: #ffffff;
-    background: #5a98d0;
-    border-radius: 10px;
-    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .aboutSite__button_seeOurProject {
+    font-size: 12px;
+    width: 108px;
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .aboutSite__button_seeOurProject {
+    height: 27px;
   }
 }

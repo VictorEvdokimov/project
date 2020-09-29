@@ -14,7 +14,7 @@ html {
 }
 
 h1 {
-  width: 510px;
+  max-width: 510px;
 }
 
 hr {
@@ -23,7 +23,7 @@ hr {
 
 /*----------- markup for development------------*/
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -35,4 +35,4 @@ button,
 input,
 textarea {
   border: 1px solid red;
-}
+} */

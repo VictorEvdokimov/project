@@ -13,12 +13,19 @@
   margin-right: 113px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 860px) {
   .header,
   .post,
   .comments,
   .illustration {
     margin-left: 32px;
     margin-right: 32px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    margin-left: 17px;
+    margin-right: 17px;
   }
 }
