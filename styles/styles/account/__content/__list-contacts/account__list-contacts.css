@@ -1,10 +1,10 @@
-.footer__list-contacts {
+.account__list-contacts {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-.footer__item {
+.account__item {
   font-family: roboto;
   font-weight: 100;
   font-size: 16px;
@@ -13,37 +13,37 @@
   letter-spacing: 2px;
 }
 
-.footer__item_tl {
+.account__item_tl {
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.footer__item_tl::before {
+.account__item_tl::before {
   content: "T.";
 }
 
-.footer__item_ml::before {
+.account__item_ml::before {
   content: "E.";
 }
 
-.footer__item_owner {
+.account__item_owner {
   max-width: 44%;
 }
 
-.footer__item_owner::before {
+.account__item_owner::before {
   content: "A.";
 }
 
 @media screen and (max-width: 960px) {
-  .footer__list-contacts {
+  .account__list-contacts {
     flex-direction: column;
   }
 
-  .footer__item_tl {
+  .account__item_tl {
     margin: 0;
   }
 
-  .footer__item_owner {
+  .account__item_owner {
     max-width: 100%;
   }
 }

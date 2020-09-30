@@ -1,0 +1,19 @@
+@import "__title/account-feedback__title.css";
+@import "__paragraph/account-feedback__paragraph.css";
+
+.account-feedback__content {
+  width: 488px;
+}
+
+@media screen and (max-width: 768px) {
+  .account-feedback__content {
+    width: 62%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .account-feedback__content {
+    width: 100%;
+    text-align: center;
+  }
+}

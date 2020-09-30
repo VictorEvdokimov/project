@@ -1,4 +1,4 @@
-.footer__copyright {
+.account__copyright {
   height: 57px;
   line-height: 57px;
   padding-bottom: 49px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 640px) {
-  .footer__copyright {
+  .account__copyright {
     padding-bottom: 0;
   }
 }

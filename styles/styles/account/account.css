@@ -1,8 +1,8 @@
-@import "footer-feedback/footer-feedback.css";
-@import "__content/footer__content.css";
-@import "__copyright/footer__copyright.css";
+@import "account-feedback/account-feedback.css";
+@import "__content/account__content.css";
+@import "__copyright/account__copyright.css";
 
-.footer {
+.account {
   display: flex;
   flex-direction: column;
   background-color: #316099;
@@ -13,21 +13,21 @@
 }
 
 @media screen and (max-width: 1150px) {
-  .footer {
+  .account {
     padding-left: 14%;
     padding-right: 14%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .footer {
+  .account {
     padding-left: 124px;
     padding-right: 124px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .footer {
+  .account {
     padding-left: 10%;
     padding-right: 10%;
     margin-top: 32px;
@@ -35,7 +35,7 @@
 }
 
 @media screen and (max-width: 376px) {
-  .footer {
+  .account {
     padding-left: 16px;
     padding-right: 16px;
   }

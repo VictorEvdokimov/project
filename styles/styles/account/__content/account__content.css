@@ -1,0 +1,14 @@
+@import "__author/account-contacts__author.css";
+@import "__list-contacts/account__list-contacts.css";
+
+.account__content {
+  height: 147px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 960px) {
+  .account__content {
+    align-items: normal;
+  }
+}
